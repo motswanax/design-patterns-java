@@ -22,7 +22,7 @@ class Projector implements DisplayModule {
 }
 
 /**
- * Client
+ * ClientClass
  */
 public class Computer {
     private DisplayModule dm;
