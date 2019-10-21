@@ -15,7 +15,7 @@ interface ManageShapeInterface {
 class Cube implements ShapeInterface, SolidShapeInterface, ManageShapeInterface {
     @Override
     public double area() {
-        return 0;
+        return 1.0;
     }
 
     @Override
@@ -32,11 +32,11 @@ class Cube implements ShapeInterface, SolidShapeInterface, ManageShapeInterface 
 class Square implements ShapeInterface, ManageShapeInterface {
     @Override
     public double area() {
-        return 0;
+        return 2.0;
     }
 
     @Override
     public double calculate() {
-        return 0;
+        return this.area();
     }
 }
