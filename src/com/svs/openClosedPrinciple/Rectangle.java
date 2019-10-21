@@ -1,12 +1,12 @@
 package com.svs.openClosedPrinciple;
 
 interface Shape {
-    public double calculateArea();
+    double calculateArea();
 }
 
 public class Rectangle implements Shape {
-    public double length;
-    public double width;
+    private double length;
+    private double width;
 
     public double calculateArea() {
         return length * width;
@@ -14,11 +14,11 @@ public class Rectangle implements Shape {
 }
 
 class Circle implements Shape {
-    public double radius;
+    private double radius;
 
     @Override
     public double calculateArea() {
-        return (22/7) * radius * radius;
+        return (22.0/7.0) * radius * radius;
     }
 }
 

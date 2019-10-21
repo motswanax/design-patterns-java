@@ -25,7 +25,7 @@ class Projector implements DisplayModule {
  * Client
  */
 public class Computer {
-    private DisplayModule dm;
+    private DisplayModule dm; // aggregation
 
     private void setDisplayModule(DisplayModule dm) {
         this.dm = dm;
