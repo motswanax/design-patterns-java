@@ -1,4 +1,4 @@
-package com.svs.factoryAbstractCreatorExample;
+package com.svs.creational.factoryAbstractCreatorExample;
 interface Shape {
     void draw();
 }

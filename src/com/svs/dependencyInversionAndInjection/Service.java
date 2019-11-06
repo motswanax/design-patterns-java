@@ -1,4 +1,4 @@
-package com.svs.creational.dependencyInversionAndInjection;
+package com.svs.dependencyInversionAndInjection;
 
 public interface Service {
     void write(String message);

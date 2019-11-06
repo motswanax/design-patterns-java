@@ -1,4 +1,4 @@
-package com.svs.creational.dependencyInversionAndInjection;
+package com.svs.dependencyInversionAndInjection;
 
 interface DBConnectionInterface {
     int connect();

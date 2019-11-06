@@ -1,4 +1,4 @@
-package com.svs.factoryAbstractCreatorExample;
+package com.svs.creational.factoryAbstractCreatorExample;
 
 public abstract class AbstractShapeFactory {
     protected abstract Shape factoryMethod();

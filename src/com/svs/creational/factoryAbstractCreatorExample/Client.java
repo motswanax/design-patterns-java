@@ -1,4 +1,4 @@
-package com.svs.factoryAbstractCreatorExample;
+package com.svs.creational.factoryAbstractCreatorExample;
 
 public class Client {
     public static void main(String[] args) {
