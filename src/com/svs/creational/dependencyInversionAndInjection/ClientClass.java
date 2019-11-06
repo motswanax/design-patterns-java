@@ -1,4 +1,4 @@
-package com.svs.dependencyInversionAndInjection;
+package com.svs.creational.dependencyInversionAndInjection;
 
 /**
  * Example of no dependency injection
