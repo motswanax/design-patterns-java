@@ -2,7 +2,7 @@ package com.svs.creational.abstractFactoryMethodExample;
 
 public class Client {
     public static void main(String[] args) {
-        // get shape factory
+        // get decoratedShape factory
         AbstractFactory shapeFactory = FactoryProducer.getFactory("SHAPE");
 
         //get an object of Shape Circle
